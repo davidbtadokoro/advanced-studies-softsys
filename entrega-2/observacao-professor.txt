@@ -1,0 +1,19 @@
+- Passar por três camadas diferentes de desenvolvimento relacionados ao kernel
+Linux (projeto do kernel Linux, projetos que suportam o desenvolvedor do kernel
+Linux e empacotamento de software em distribuições Linux) resultou em um
+entendimento mais completo e rico do processo de compreensão do desenvolvimento
+Linux e de como contribuir para software livre;
+
+- Passar por três camadas diferentes de desenvolvimento relacionados ao kernel
+Linux (projeto do kernel Linux, projetos que suportam o desenvolvedor do kernel
+Linux e empacotamento de software em distribuições Linux) agregou fortemente
+para a formação dos alunos como cientistas da computação e como desenvolvedores
+na indústria de software, mesmo que fora do contexto de software livre;
+
+- O processo de introdução de novatos ao desenvolvimento do kernel Linux para um
+perfil diverso de alunos parecia audacioso ao início da disciplina e tinha-se
+uma expectativa de um experimento que poderia falhar. Em retrospectiva, ao final
+da disciplina, as expectativas foram muito superadas, pois todos os alunos que
+terminaram a disciplina realizaram, ao menos satisfatoriamente, todas as etapas
+de se contribuir para o kernel Linux. 
+
