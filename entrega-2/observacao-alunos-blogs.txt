@@ -1,0 +1,288 @@
+- aluno 1: "Essa foi a minha primeira contribuição para o kernel do Linux e
+achei uma experiência muito interessante. Gostaria de agradecer ao professor
+#### e ## integrantes do grupo #### e #### por terem tornado esse processo de
+aprendizado possível, além claro dos membros do FLUSP que criaram e
+disponibilizaram os tutoriais utilizados, compartilhando o conhecimento que eles
+adquiriram ao longo dos últimos anos."
+
+- aluno 1: "As someone still interested to keep contributing to the Linux
+ecossystem, but not really into contributing to the kernel itself, there are a
+lot of ways we can help to build this empire apart from the very kernel."
+
+- aluno 1: "This [first] phase was tough due to my lack of experience with
+such tools and also some issues I faced while following the tutorials. However,
+I would say it was a really cool experience. I’ve tweaked a lot with Linux in
+the past, but never really went low enough to modify a kernel tree and deploy it
+into a new image to test it. This was a really nice opportunity and experience
+and overall and I believe that anyone who is interested on Linux in general
+would love it."
+
+- aluno 1: "I had the opportunity to not only learn more about bash scripting
+(which was a lot by the way), but also learned more about development workflow
+in general. Working in a project at the same time with mutiple other developers
+really makes you fully understand why git actually exists and forces you to
+learn and keep track of potential conflicting changes. I’m sure that I did more
+rebases in the last few months than the previous 4 years combined. It was great
+overall and, as much as I find bash confusing and weird sometimes, it was a nice
+experience to have."
+
+- aluno 1: "It was an overall great experience. There were moments of
+frustration and confusion, but we managed to go through every obstacle thanks to
+classmates’ support and determination to look up solutions for every issue we
+eventually had. I’ve learned a lot about git and bash during these last months
+and I feel my knowledge about FOSS and Linux in general was significantly
+improved."
+
+- aluno 2: "The change itself was simple, but we had problems while trying to
+compile the modified code. The errors indicated that the macro
+device_for_each_child_node_scoped() did not exist. We tried to find the file
+where the macro should be, but we didn’t achieve success. Analyzing the
+modification introduced by the last commit, we found out that the branch we were
+in was not updated since 2022. Because of that, the desired macro hadn’t yet
+been implemented. We tried to reach an updated branch so we could send the
+modification, but this was only clarified during the class with the monitor’s
+help. After obtaining the correct branch for development, we only had to re-do
+the modification and send the patch."
+
+- aluno 2: "My experience with the tutorials was not easy in certain moments.
+In some cases it was caused by poor attention while reading it, or peculiarities
+of my machine, and also due to the tutorial not covering some aspect (or not
+being clear). I think the task was not easy by nature, with the amount of
+diverse problems that may appear along each step involved in the kernel
+compilation and deploy, so it would be difficult to go through all the tutorials
+without any setbacks. Maybe if in each tutorial step, there was a detailed
+description of possible problems/difficulties that might appear, it would be
+easier for those who are following the tutorial to detect when there was a
+mistake in some step or when the error is well known and easy to solve."
+
+- aluno 3: "The planning of the course to contribute to the Linux ecosystem
+personally pleased me because I wanted to experience the process of trying to
+contribute to the Kernel, and having a course with room for that was very
+helpful."
+
+- aluno 3: "It also broadened my perspective on how to evaluate an open-source
+project to understand how that project is maintained, observe if the maintainer
+is active and receptive to new contributors or more closed off to external
+contributions, and whether a project has a structured group responsible. Another
+lesson was about being patient when contributing and understanding that all
+contributions are important. It’s not necessary to only contribute with new
+features; we can also contribute by solving small issues in the code."
+
+- aluno 3: "But the most interesting point was generating an interest in
+understanding the codes of the libraries I use the most, at least to clone the
+repository, explore the code, and possibly contribute to them in the future."
+
+- aluno 4: "After finishing the two first tutorials again, I’ve been
+frustrated by the same problems: I wasn’t able to install new modules at the
+VM’s kernel.  After more debugging and frustration, I decided to switch back to
+####’s series of tutorials, but unfortunately, I still wasn’t able to execute
+libvirt due to incompatibilities.  Instead of spending even more time trying to
+setup the environment in my machine, I switched to pair programming, and went to
+collaborate with a colleague who had their setup working."
+
+- aluno 4: "[talking about the Debian packaging phase] The first attempt at the
+VM approach worked seamlessly, until the third step of building the package.
+Since we didn’t expect the process to consume much disk space, we assigned only
+6 Gb to the VM, and much less to the /boot disk. The dependencies required to
+build the package had to be installed at the /boot disk, and resizing this
+specific disk wasn’t very easy. We had to restart again.  At the second attempt,
+we supplied 20 Gb to the VM’s disk. The build process went fine, but we weren’t
+able to run the package’s automated tests.  Other colleagues had similar
+problems, and with no easy solution, we decided to stop here and continue to
+focus in the other contributions of the course."
+
+- aluno 5: "We started the semester working on the linux kernel. This was by far
+the project with the greatest learning curve. Before contributing we spent a few
+weeks understanding how the kernel was structured with its many subsystems,
+learning about a complex contribution workflow (with different trees and cycles)
+and setting up the environment with virtual machines to build and deploy the
+kernel. Once we made our patch we still had to learn how to send the patch to
+the correct maintainers and how to check for updates and replies. It was a lot
+to learn, but it was definetly worth it. Once we sent a contribution to the
+kernel, every other project seemed more tangible. It gave us confidence to take
+on other projects afterwards." 
+
+- aluno 5: "[talking about a bug in an Linux driver] In order to fix that we
+would have to write from scratch a new operating mode for the driver. That was
+beyond our knowledge and would take us a lot of time, so we mentioned the
+problem in the lore, but decided not to work on that."
+
+- aluno 5: "We had the chance to work real-world large projects that are used
+daily by thousands of people worldwide. We gained confidence to work on open
+source projects, to understand and propose changes to large software and we
+practiced the use of day-today tools like git, github and gitlab. We also saw
+firsthand the importance of clean code, good documentation, tests and an active
+community, to the long term maintenance of code and to the cooperation of
+multiple people on the same project. I hope to contribute to more open source
+software after this discipline. "
+
+- aluno 6: "We started this semester being introduced to probably one of the
+hardest projects to contribute with: the Linux Kernel. And I don’t say that
+because it’s a hard project (in fact, it is, but at the same time I had the fell
+that contributing to it is more accessible than I thought before), but because
+it requires a great preparation and a knowledge of, besides the code, how to
+effectively contribute, like all the rules about formating and sending patches."
+
+- aluno 6: "Even if it didn’t go as we expected, I think I learned a lot in this
+process. Working on a code that isn’t mine and specially one in the magnitude of
+the Kernel was difficulty, but amazing. I think that was a great way to start
+this discipline, gave me a clear idea of how the FLOSS world works and that it’s
+more accessible than I thought. The support from the professor and the TAs was
+also essential too and I think the workshops in class worked very well."
+
+- aluno 6: "I think the biggest learning from this was about the contribution
+process: we received a lot of suggestions and requests of changes in our code,
+and it was great! In addition to learning some new bash commands, dealling with
+the maintainers was a great experience, and it was even more amazing when I
+received the mail informing that our push request was accepted. A great
+feeling!"
+
+- aluno 6: "[talking about the Debian packaging phase] about I just think we had
+few time to work on this, considering the next phase of the discipline required
+a lot of our effort and we were a little late to start it. Maybe with some more
+time we could find another software to make a package and then submit."
+
+- aluno 7: "[talking about a patch to the Linux kernel] This project was much
+more straightforward than the other one, especially since it was mostly just
+refactoring code instead of having to learn how the device worked and what it
+would take to add new functionality. I managed to get it done it a day (although
+I was already much more familiar with the kernel due to the previous weeks of
+studying for ad7292) and submitted my patch, which was a smooth (if
+nerve-wracking) process (I did almost send an incomplete test patch to everyone
+by accident, but luckily I had –dry-run on). The patch was approved with no
+further changes."
+
+- aluno 7: "[talking about contributing to a supporting project to the Linux
+kernel] It annoyed me, though, that the documentation was contradicting itself
+to the point of actively getting in the way of setting up the program."
+
+- aluno 8: "I’ve never had experience with virtual machines before, and at first
+glance, it seemed a bit dense and scary, but overall I think I had a nice
+learning curve over this process, it was not the smoothest one. Although the
+tutorials explain very nicely the goal, the commands and the meaning behind it,
+they do not go deeper into possible problems that may happen."
+
+- aluno 8: "[talking about contributing to the Linux kernel] In general, it was
+an interesting experience studying and playing with the kernel, and nicer than I
+expected (besides the problems with the VM). "
+
+- aluno 9: "[talking about technical limitations due to setup] But I was on the
+other side of this, and felt that all the time, all the classes, I was left
+behind because of my laptop, but knew that fixing my bugs and machine problems
+would also lead to a good learning process.  I had to be patient and learn with
+late steps, and since we ended up grouping, I had to follow up with my groupmate
+laptop implementations. This made a bit harder to actually go down with testing,
+implementing my ideas or flowing with the development of the issue code itself."
+
+- aluno 9: "[...] I get the feeling that learning comes a lot from struggles and
+overheads. So, most of what I learned throughout the discipline was from the
+consequences of my problems during tutorials and other situations, rather than
+mainly from the contributions.  I have never actually searched, executed,
+deleted and created so many stuff inside my operating system, so one of the
+things that I learned the most was about the OS itself and how it works on the
+real world side."
+
+- aluno 9: "After the entire knowledge obtained through the discipline, on the
+beginning of june I found out about a cool open-source project in which I would
+really like to contribute."
+
+- aluno 10: "During the study, due to the fact that I didn’t follow exactly the
+creation of the directory in these tutorials, I had a small problem completing
+these tutorials because I couldn’t find the path of the directory I created, but
+after a few attempts, the problem was solved and I finished these three
+tutorials successfully.  Even though everything went well here, my partner
+#### had a lot of problems with the tutorial because he didn’t read the
+instructions and explanatory texts, so his progress was lagging behind the rest
+of the class."
+
+- aluno 11: "[falando de dificuldades nos tutoriais] Mas ainda assim, outro erro
+persistiu, tornando bem dificil realizar essa parte. Contudo, com ajuda de
+alunos e monitores, foi possível resolver o problema ao recomeçar do zero o
+tutorial."
+
+- aluno 12: "Após terminar todos os tutoriais, exceto com algumas lacunas nos
+tutoriais que naturalmente não consideraria todas as circuntâncias para compilar
+o kernel e testar módulos, percebi que a maioria dos problemas que tive com
+erros foi devido à falta de conhecimento que tinha com a linguagem e
+gerenciamento de arquivos para compilar o kernel, que foram obtidos com o
+preceder do fluxo."
+
+- aluno 12: "[talking about a free software project that is not related to the
+Linux kernel] I’m very pleased with the contribution and thank the reviewers who
+kindly helped me with the integration process. I hope to be able to make further
+contributions in the future."
+
+- aluno 13: "[falando sobre dificuldades nos tutoriais] A partir dai, tive
+problemas com comandos que não estavam bem descritos onde eram para serem
+rodados também (e passei um bom tempo tentando descobrir)."
+
+- aluno 14: "[talking about conceiving a Linux kernel patch] The initial
+challenge was to understand how each function works, since the kernel uses very
+low-level libraries, we had to search line by line in existing header files
+included in our driver and read its documentation."
+
+- aluno 14: "[talking about difficulties on implementing a Linux kernel patch]
+But we have faced a problem: one of the drivers recommended by #### was too
+complicated to fix because we couldn’t test them properly, since we didn’t have
+the proper hardware to do it."
+
+- aluno 14: "I am very happy with my first acceptance in a open-source project
+that nobody knw me. They trusted and reviewed my work and now I can use it, as
+Nushell is present on my daily basis use."
+
+- aluno 15: "Uma parte bem legal da disciplina foram as palestras. Tivemos a
+oportunidade de aprender diretamente com profissionais que já trabalham na área,
+incluindo pessoas que ocupam posições em grandes empresas e mantenedores de
+projetos open source, complementando nossos estudos teóricos e práticos. Vale um
+destaque para a palestra do kernel e como contribuir para ele. Aprendemos sobre
+a estrutura do kernel, os desafios de manter um projeto dessa magnitude e as
+melhores práticas para enviar patches. Outro destaque foi a palestra de licenças
+com o ####, explicando detalhadamente as diferenças entre as principais licenças
+open source, como GPL, MIT e Apache, e suas implicações para desenvolvedores e
+usuários. Para mim, foram assuntos totalmente novos que nunca tinha parado para
+me preocupar até então, foi bem legal ouvir sobre esse tópico e começar a
+prestar mais atenção nisso em projetos que eu participar."
+
+- aluno 15: "No início da disciplina, seguimos tutoriais sobre o kernel Linux.
+Acredito que essa foi uma das partes mais desafiadoras para mim, pois ainda
+estávamos no começo da disciplina, estava um pouco perdida e tive muita
+dificuldade com os tutoriais iniciais de set up, demorei bastante para conseguir
+terminá-los, incluindo um problema grande na minha máquina por estar com os
+programas desatualizados, [...]"
+
+- aluno 15: "A disciplina #### foi uma experiência transformadora. Antes
+dessa disciplina, não entendia porque alguém administraria um software livre,
+porque aceitar contribuição de qualquer um poderia ser uma boa opção já que
+achava que podia ter problemas de segurança, não entendia nada de licenças. Em 4
+meses, aprendi sobre kernel, licenças, empacotamento, contribuições práticas
+para projetos open source e, o mais importante, desmetificar tudo que pensava
+sobre software livre. Estou ansiosa para continuar essa jornada em disciplinas
+futuras e contribuir cada vez mais com o ecossistema de software livre."
+
+- aluno 16: "Entering a Kernel community is a big challenge, and getting started
+with something simple as tests may be a good path. There is a lot of things to
+learn, and much more to do, but I’m really excited with all the evolution I’ve
+had so far :)"
+
+- aluno 17: "Em geral gostei bastante da disciplina. Foi bem trabalhosa, mas em
+geral aprender sobre a história e filosofia de software livre, junto com ter
+experiências práticas contribuindo em diversos projetos, assim como ter
+palestras de profissionais na área foi algo muito interessante. Toda a
+experiência de programação me deixou mais experiente em git e bash, e me deu uma
+ideia de como é todo o fluxo de desenvolvimento no software livre, examinando
+issues para ver com o que eu poderia contribuir, realizando os PRs e respondendo
+ao feedback dos mantenedores, esse tipo de coisa. A contribuição para o kernel
+do linux acabou sendo bem pequena, mas pelo menos aprendi como funciona para
+mandar um patch, todo o processo de instalar uma VM com o kernel do linux, e de
+mandar email para os mantenedores com as mudanças, ou com o git send email ou
+com o kw mail."
+
+- aluno 18: "[talking about a coding style Linux kernel patch] Creating a simple
+patch like this was easy. At every kernel tree you download, there is a scripts
+folder, with a bunch of nice stuff in there.  One of them is the checkpath.pl
+script. This script checks source code, checking spelling and cosmetic mistakes.
+With this, you can find easy stuff to fix in the kernel. Almost like
+free-real-state.  Creating a patch was easy, thanks to git.  In a nutshell, just
+create a new branch, make your changes, commit, generate the patch, check your
+path with checkpath.pl(yes here it is again!), sign-off, and send it to
+maintainers. Seems simple. Is Hard."
