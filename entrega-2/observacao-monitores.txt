@@ -1,0 +1,50 @@
+- Com algumas exceções, os alunos tiveram muita dificuldade ao início da
+disciplina em resolver problemas sozinhos que ocorriam durante os workshops dos
+tutoriais, notavelmente, comandos que falhavam, problemas no _setup_ (como
+pacotes que tinham nome diferente ou que tinham comportamento diferente
+dependendo da distribuição) e dificuldade em compreender os conceitos
+apresentados;
+
+- Com algumas exceções, os alunos tiveram muita dificuldade ao início da
+disciplina em habilidades relacionadas a interagir com o computador via linha de
+comando (essencialmente, toda a parte prática dos tutoriais era execução de
+comandos) e os utilitários/programas relacionados a ele (`git`, `cd`, `ls`,
+`echo`, etc.);
+
+- Com algumas exceções, os alunos tinham ao início da disciplina uma percepção
+muito mistificada do conceito de software livre, e que, apesar de entenderem
+como algo interessante e importante para a computação, não se sentiam motivados
+a participar por ser algo percebido como difícil, distante e que demandasse
+muito esforço;
+
+- Os mesmos alunos que demonstraram dificuldade em resolver problemas diversos
+sozinhos, ao decorrer da disciplina, foram tornando-se cada vez mais
+independentes e confiantes em relação a depurar erros e bugs;
+
+- Os mesmos alunos que tinham uma percepção muito mistificada do conceito de
+software livre ao início da disciplina terminaram a disciplina com uma percepção
+de que tanto o projeto do kernel Linux quanto projetos de software livre no
+geral eram, realisticamente, possíveis de se contribuir e que a produção de
+software colaborativo não exige um conhecimento técnico extremamente avançado
+(contrastando com suas percepções iniciais);
+
+- No primeiro quarto da disciplina, houve um número considerável de alunos que
+desistiram de prosseguir na disciplina (em torno de 10 alunos), a maioria alunos
+de graduação. Porém, a amostragem de alunos ainda continuou bem diversa: havia
+alunos que tinham pouco ou nenhuma proficiência nas habilidades necessárias para
+realizar as atividades da disciplina e que não tinham experiência com
+Linux/software livre; havia alunos que tinham uma boa base para realizar as
+atividades da disciplina, mas que não tinham experiência com Linux/software
+livre; havia alunos que tinham uma boa base para realizar as atividades da
+disciplina e que haviam tido experiência com Linux/software livre, tanto
+contribuindo quanto mantendo;
+
+- Houve um número considerável de alunos em torno de (4 grupos) que com a
+experiência da primeira fase (ciclo de contribuição para o kernel Linux),
+segunda fase (ciclo de contribuição para projetos que suportam o desenvolvedor
+do kernel Linux) e terceira fase (ciclo de contribuição para o empacotamento de
+software para a distribuição Debian), sentiram-se confortáveis de, na quarta e
+última fase, explorar projetos de software livre que não foram sugeridos para
+contribuidor. Estes grupos, organicamente, sem quase nenhuma instrução por parte
+dos monitores/professor, aprenderam a contribuir para tais projetos;
+
