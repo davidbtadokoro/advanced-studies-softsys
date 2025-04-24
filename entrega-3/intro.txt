@@ -1,6 +1,6 @@
 The development of modern software systems is a highly collaborative endeavor,
 often demanding the coordination of multiple individuals with diverse skill
-sets, experiences, backgrounds, and - more often than not - globally
+sets, experiences, backgrounds, and that are - more often than not - globally
 distributed. Free Libre and Open Source Software (FLOSS) development models
 employed by many successful software projects pervasive in our society have
 raised the attention of industry and academia to leverage its benefits and get
@@ -28,9 +28,11 @@ navigate an enormous codebase fragmented in many development contexts and
 dedicated code repositories. These comprise the numerous subsystems governed by
 distinct and often undocumented conventions, processes and practices
 (workflows), and social norms. These characteristics complicate the onboarding
-process and pose a problem for renewing the highly specialized workforce.
-Without a steady influx of new and adequately trained contributors, the
-vitality and evolution of the ecosystem could be jeopardized.
+process and pose a problem for renewing the highly specialized workforce. As
+time passes, key maintainers and developers of the ecosystem leave the project
+for one reason or another, and without a steady influx of new and adequately
+trained contributors, the vitality and evolution of the ecosystem could be
+jeopardized.
 
 Addressing this issue requires more than technical tutorials or improved
 documentation. It demands a pedagogical approach that recognizes the interplay
@@ -41,43 +43,56 @@ contribution process, transmit tacit knowledge, and build confidence in
 potential contributors.
 
 This paper presents and evaluates a structured approach to mentoring newcomers
-to the Linux kernel ecosystem. Our research is grounded in practical experience
-teaching the Free Software Development course at the University of São Paulo
-(USP) during the first semesters of 2024 and 2025. The course, taught by the
-authors - one as the professor and the others as teaching assistants (TAs)
-- offered students a hands-on experience in FLOSS contribution focused on the
-Linux project. The students learned to set up a testing environment; configure,
-compile, and install custom-built kernels and modules; assess contribution
-opportunities; develop and send contributions to maintainers and mailing lists;
-and participate in the review process by interacting with the suggestions and
-requests of the community to refine initially proposed changes to the standard
-the project demands.
+to the Linux kernel ecosystem and how immersing in this hands-on experience
+provided by the courses can equip them to become valuable assets.
 
-Through classroom workshops, curated tutorials authored by veteran Linux
-practitioners, and sustained direct mentoring (by the professor and TAs),
-students (in the majority with no experience with Linux or FLOSS development in
-general) went from learning the basics to (in most cases) having a merged
-contribution, within a couple of months. Qualitative data from students was
-collected via surveys and through analyzing blog posts to examine their
-learning trajectories and perceptions. Observations from the professor and TAs
-were also systematically compiled to enrich the research.
+To guide us in this research work, we present the following questions:
+
+1) What teaching techniques are effective in introducing newcomers to the
+   Linux ecosystem (in-loco workshops, tutorials, lectures from
+   practitioners)?
+2) What hard and soft skills are crucial to successfully entering the Linux
+   ecosystem?
+3) What processes and practices (workflows) should be abstracted for
+   a smoother entry into the Linux ecosystem?
+
+Our research is grounded in practical experience teaching the Free Software
+Development course at the University of São Paulo (USP) during the first
+semesters of 2024 and 2025. The course, taught by the authors - one as the
+professor and the others as teaching assistants (TAs) - offered students
+a hands-on experience in FLOSS contribution focused on the Linux project. The
+students learned to set up a testing environment; configure, compile, and
+install custom-built kernels and modules; assess contribution opportunities;
+develop and send contributions to maintainers and mailing lists; and
+participate in the review process by interacting with the suggestions and
+requests of the community to refine initially proposed changes to the standard
+the project demands. Through classroom workshops, curated tutorials authored by
+veteran Linux practitioners, and sustained direct mentoring (by the professor
+and TAs), students (in the majority with no experience with Linux or FLOSS
+development in general) went from learning the basics to (in most cases) having
+a merged contribution, within a couple of months. Qualitative data from
+students was collected via surveys and through analyzing blog posts to examine
+their learning trajectories and perceptions. Observations from the professor
+and TAs were also systematically compiled to enrich the research.
 
 The findings from this work indicate many interesting perspectives, which we
 highlight:
 
 1) In-loco workshops, learning materials produced by veteran Linux
    practitioners, and accessible mentors can significantly lower the entry
-barrier to FLOSS projects like the Linux kernel;
+   barrier to FLOSS projects like the Linux kernel;
 2) The students, independent of their background, reported that they enhanced
    their technical skills related to software development (deeper proficiency
-in git, device drivers, and C programming language) while exercising their
-communication skills, which is paramount for successful collaborative
-development;
+   in git, device drivers, and C programming language) while exercising their
+   communication skills, which is paramount for successful collaborative
+   development;
 3) The students who had detached and imprecise perceptions of Linux and FLOSS
    development, which was the majority, reported that the mentoring experience
-helped them demystify those concepts and that they felt more empowered and
-comfortable to contribute to other FLOSS projects.  
+   helped them demystify those concepts and that they felt more empowered and
+   comfortable to contribute to other FLOSS projects.  
 
 These contributions help to have a more comprehensive view of the movement of
 new contributors to the Linux ecosystem and provide an approach to successfully
-mentor them that can be applied to FLOSS projects in general.
+mentor them that can be applied to FLOSS projects in general. More importantly,
+we claim that through this approach, students finish their immersion equipped
+to become real Linux developers supporting the sustainability of the project.

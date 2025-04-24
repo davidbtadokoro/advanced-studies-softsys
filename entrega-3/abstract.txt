@@ -4,33 +4,29 @@ Software (FLOSS) development models have successfully created large, scalable,
 and (more often than not) globally distributed communities that evolve and
 maintain high-quality software projects, with the Linux kernel ecosystem being
 a prime example. Beyond the technical challenges natural to the project, the
-entry barrier is steep and discouraging for newcomers to the Linux ecosystem as
-there are many sub-projects (called subsystems), each with its specific
-contributing rules, processes, and practices that are usually undocumented and
-only learned by direct contact with the community; this risks the project
-long-term sustainability, as the renewal of the highly qualified workforce is
-a known problem. This work aims to validate an approach to mentor newcomers to
-the Linux ecosystem efficiently. The research questions that guided us are: (1)
-What teaching techniques are effective in introducing newcomers to the Linux
-ecosystem (in-loco workshops, tutorials, lectures from practitioners)? (2) What
-hard and soft skills are crucial to successfully entering the Linux ecosystem?
-(3) What processes and practices (workflows) should the mentors abstract for
-a smoother entry into the Linux ecosystem? In the first semesters of 2024 and
-2025, the Free Software Development course was ministered at the University of
-São Paulo (USP) by the authors - one as the professor and the others as
-teaching assistants (TAs). During these offerings, students went from setting
-up a testing environment to learning the fundamental workflows involved,
-culminating in sending patches and interacting with Linux communities through
-the code review process. These students, who in the majority had no experience
-in Linux development, were closely mentored using a combination of teaching
-techniques, and their experience and feedback were collected through surveys
-and blog posts written by them. Among our findings, we can highlight: (1) Use
-of directed content (tutorials) produced by real practitioners in the Linux
-ecosystem, along with in-person mentoring during classes (workshops) and
-accessibility of the professor and TAs, produces a fertile environment for
+skills and knowledge requirements are high and discouraging for newcomers to
+the Linux ecosystem as there are many sub-projects (called subsystems), each
+with its specific contributing rules, processes, and practices that are usually
+undocumented and only learned by direct contact with the community; this risks
+the project long-term sustainability, as the renewal of the highly qualified
+workforce is a known problem. This work aims to validate an approach to mentor
+newcomers to the Linux ecosystem efficiently preparing them to become real
+Linux developers. During an offering of a Free Software Development course
+ministered by the authors, students went from setting up a testing environment
+to learning the fundamental workflows involved, culminating in sending patches
+and interacting with Linux communities through the code review process. These
+students, who in the majority had no experience in Linux development, were
+closely mentored using a combination of teaching techniques, and their
+experience and feedback were collected through surveys and blog posts written
+by them. Among our findings, we can highlight: (1) Use of directed content
+(tutorials) produced by real practitioners in the Linux ecosystem, along with
+in-person mentoring during classes (workshops) and accessibility of the
+professor and teaching assistants, produces a fertile environment for
 newcomers; (2) The experience in the course enhanced the qualification of
 students, from hard skills like git, and email and web-based models of code
 collaboration to communication skills; (3) The experience in the course
 demystified a lot of inaccurate concepts from the students about FLOSS
 development and made them more comfortable and ready to contribute to other
-FLOSS projects.
+FLOSS projects. We claim that these contributions provide a solid approach on
+mentoring newcomers to the Linux ecosystem as well as equipping them with the
+necessary skills and experience to become real Linux developers.
